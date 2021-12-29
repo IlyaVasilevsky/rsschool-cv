@@ -6,51 +6,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>CV</title>
 </head>
-<body class="container">
-    <header class="header">
-        <nav class="nav">
-            <ul class="nav-list">
-                <li class="nav-item"><a href="#profile" class="nav-link">profile</a></li>
-                <li class="nav-item"><a href="#contacts" class="nav-link">contacts</a></li>
-                <li class="nav-item"><a href="#summary" class="nav-link">summary</a></li>
-                <li class="nav-item"><a href="#skills" class="nav-link">skills</a></li>
-                <li class="nav-item"><a href="#code" class="nav-link">code</a></li>
-                <li class="nav-item"><a href="#courses" class="nav-link">courses</a></li>
-                <li class="nav-item"><a href="#education" class="nav-link">education</a></li>
-                <li class="nav-item"><a href="#languages" class="nav-link">languages</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main class="main">
-        <section class="section profile" id="profile">
-            <img class="profile-img" src="img/avatar.png" alt="avatar">
-            <div>
-                <h1 class="section-title name">Ilya Vasilevsky</h1>
-                <h2 class="section-title">Junior Frontend Developer</h2>
-            </div>
-        </section>
-        <section class="section" id="contacts">
-            <h2 class="section-title">Contacts</h2>
-            <ul class="contacts-list">
-                <li class="contacts-item"></li>
-                <li class="contacts-item"></li>
-                <li class="contacts-item"></li>
-                <li class="contacts-item"></li>
-            </ul>
-        </section>
-        <section class="section" id="summary">
-            <h2 class="section-title">Summary</h2>
-        </section>
-        <section class="section" id="skills"></section>
-        <section class="section" id="code"></section>
-        <section class="section" id="courses"></section>
-        <section class="section" id="education"></section>
-        <section class="section" id="languages"></section>
-    </main>
-    <footer class="footer"></footer>
+<body>
+    <div class="container">
+        <header class="header">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#profile" class="nav-link">profile</a></li>
+                    <li class="nav-item"><a href="#contacts" class="nav-link">contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">code</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">courses</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">education</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">languages</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <section class="section profile" id="profile">
+                <img class="profile-img" src="img/avatar.png" alt="avatar">
+                <div>
+                    <h1 class="section-title name">Ilya Vasilevsky</h1>
+                    <h2 class="section-title">Junior Frontend Developer</h2>
+                </div>
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="contacts-list">
+                    <li class="contacts-item"><a class="contacts-link" href="https://github.com/IlyaVasilevsky" target="_blank">GitHub</a></li>
+                    <li class="contacts-item"><a class="contacts-link" href="https://vk.com/id537884228" target="_blank">VK</a></li>
+                    <li class="contacts-item"><a class="contacts-link" href="https://t.me/BMOOOO" target="_blank">Telegram</a></li>
+                    <li class="contacts-item"><a class="contacts-link" href="https://twitter.com/Ilya_Vasilevsky" target="_blank">Twitter</a></li>
+                    <li class="contacts-item">Discord: BMO#2935</li>
+                </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos at magnam nihil itaque? Blanditiis obcaecati, modi necessitatibus praesentium consectetur eligendi? A, voluptatibus ipsum dicta autem saepe placeat iste nisi optio!</p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="skills-list">
+                    <li class="skills-item">HTML</li>
+                    <li class="skills-item">CSS</li>
+                    <li class="skills-item">JS</li>
+                    <li class="skills-item">GIT</li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">code</h2>
+                    <pre>
+                        <code>
+<span style="color: #b294bb;">function</span> <span style="color: #de935f;">greet</span>() {
+   <span style="color: #b294bb;">return</span> <span style="color: #b5bd68;">"hello world!"</span>
+  }
+                        </code>
+                    </pre>    
+            </section>
+            <section class="section" id="courses">
+                <h2 class="section-title">courses</h2>
+                <p>
+                    <a class="courses-link" href="https://htmlacademy.ru/profile/id1127893" target="_blank">HTML Academy Profile</a>
+                </p>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">education</h2>
+                <p class="education-text">MIREA – Russian Technological University</p>
+            </section>
+            <section class="section" id="languages">
+                <h2 class="section-title">languages</h2>
+                <ul class="languages-list">
+                    <li class="languages-item">Russian: Native</li>
+                    <li class="languages-item">English: A1</li>
+                </ul>
+            </section>
+        </main>
+        <footer class="footer"></footer>
+    </div>
 </body>
 </html>
