@@ -4,6 +4,9 @@ html {
 
 body {
     font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
     margin: 0;
     background-color: #e6e6e6;
 }
@@ -12,36 +15,92 @@ body {
     box-sizing: border-box;
   }
 
-  .container {
-    max-width: 1440px;
-    margin: 0 auto;
-  }
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
 
-  .header {
-    display: flex;
-    justify-content: end;
-    border-bottom: 1px solid #000;
-  }
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
 
-  .nav-list {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  }
+.header {
+  display: flex;
+  justify-content: end;
+  border-bottom: 1px solid #000;
+}
 
-  .nav-item {
-    list-style: none;
-    transition: transform 0.3s linear;
-  }
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
 
-  .nav-item:hover {
-    transform: translateY(-5px);
-  }
+.nav-item {
+  list-style: none;
+  transition: transform 0.3s linear;
+}
 
-  .nav-link {
-      padding: 0 20px;
-      line-height: 50px;
-      text-decoration: none;
-      text-transform: capitalize;
-      color: black;
+.nav-item:hover {
+  transform: translateY(-5px);
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: black;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.section {
+  width: 50%;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.section:first-child {
+  width: 100%;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.name {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.profile-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.contacts-list {
+  list-style: none; 
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+    text-align: center;
   }
+}
