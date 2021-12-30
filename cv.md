@@ -6,7 +6,7 @@
 * **[twitter](https://twitter.com/Ilya_Vasilevsky)** 
 
 ## About me
-Junior Frontend Developer
+Hello, I'm Ilya Vasilevsky. I am studying at RS School
 
 ## Skills
 * HTML
@@ -14,4 +14,9 @@ Junior Frontend Developer
 * JS
 * GIT
 
+## Education
+MIREA – Russian Technological University
+
 ## Languages
+* Russian: Native
+* English: A1
